@@ -760,3 +760,71 @@
                             color: #928CAB;
                         }
                         /* DeFi styles end */
+                        /* Partners styles start */
+                        
+                        .partners {
+                            margin-bottom: 187px;
+                        }
+                        
+                        .partners__wrapper {
+                            max-width: 1180px;
+                            top: 87px;
+                            background-color: #fff;
+                            margin: 0 auto;
+                            position: relative;
+                        }
+                        
+                        .partners__title {
+                            width: 1180px;
+                            font-weight: 500;
+                            font-size: 24px;
+                            line-height: 40px;
+                            padding: 0px 504px 42px 504px;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            transform: translateY(-100%);
+                            background-color: #fff;
+                        }
+                        
+                        .partners__title:before {
+                            content: '';
+                            display: block;
+                            width: 296.5px;
+                            height: 2px;
+                            background: #F4F5F4;
+                            position: absolute;
+                            left: 0;
+                            top: 50%;
+                            z-index: -2;
+                        }
+                        
+                        .partners__title:after {
+                            content: '';
+                            display: block;
+                            width: 296.5px;
+                            height: 2px;
+                            background: #F4F5F4;
+                            position: absolute;
+                            right: 0;
+                            top: 50%;
+                            z-index: -2;
+                        }
+                        
+                        .partners__cards {
+                            display: grid;
+                            grid-template-columns: repeat(5, 1fr);
+                            grid-column-gap: 20px;
+                            padding: 0;
+                        }
+                        
+                        .partners__card {
+                            max-width: 220px;
+                            height: 80px;
+                            border-radius: 8px;
+                        }
+                        
+                        .partners__card-thumb {
+                            display: block;
+                        }
+                        /* Partners styles end */
